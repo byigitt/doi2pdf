@@ -1,0 +1,22 @@
+--- Download Summary (20250513_191042) ---
+
+Identifier: 10.2514/6.2016-2392 | Status: SUCCESS
+---
+Identifier: 10.1145/3456887.3457455 | Status: SUCCESS
+---
+Identifier: 10.1016/j.jbi.2021.103917 | Status: FAILURE
+  -> Reason: Direct download from OpenAlex URL failed: URL https://doi.org/10.1016/j.jbi.2021.103917 did not return a PDF. Content-type: text/html;charset=utf-8. Try opening the URL in a browser.. Will try Sci-Hub if DOI is available.
+---
+Identifier: 10.26668/businessreview/2023.v8i4.1732 | Status: SUCCESS
+---
+Identifier: 10.1007/s11219-021-09557-y | Status: SUCCESS
+---
+Identifier: 10.1504/IJMLO.2015.069709 | Status: SUCCESS
+---
+Identifier: 10.1007/978-3-030-00623-5_7 | Status: FAILURE
+  -> Reason: [Selenium] Sci-Hub page indicates document not found for DOI: 10.1007/978-3-030-00623-5_7 (via specific text check)
+---
+Identifier: 10.1109/INFORINO.2018.8581741 | Status: SUCCESS
+---
+Identifier: 10.25046/aj050272 | Status: SUCCESS
+---

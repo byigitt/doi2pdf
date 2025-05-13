@@ -429,6 +429,20 @@ def log_message(log_file_path: str, identifier: str, status: str, message: str):
     except IOError as e:
         print(f"Critical: Failed to write to log file {log_file_path}: {e}")
 
+def update_simplified_summary(summary_file_path: str, identifier: str, status: str, message: Optional[str]):
+    """Appends a simplified status update for an identifier to the summary file."""
+    try:
+        with open(summary_file_path, 'a', encoding='utf-8') as f_summary:
+            f_summary.write(f"Identifier: {identifier} | Status: {status}\n")
+            if status == "FAILURE" and message:
+                # Ensure the message is a single line for this simplified summary
+                # Or take the first line if it's multi-line from the detailed log
+                first_line_of_message = message.split('|')[0].strip() if message else "No specific reason logged."
+                f_summary.write(f"  -> Reason: {first_line_of_message}\n")
+            f_summary.write("---\n") # Add a separator for readability
+    except IOError as e:
+        print(f"ERROR: Failed to update simplified summary report {summary_file_path}: {e}")
+
 def doi_to_pdf_downloader(
     identifier_doi: Optional[str] = None,
     identifier_name: Optional[str] = None,
@@ -437,7 +451,8 @@ def doi_to_pdf_downloader(
     auto_open_pdf: bool = False,
     is_batch_mode: bool = False,
     log_file_path: Optional[str] = None,
-    scihub_retrieval_method: str = "selenium"
+    scihub_retrieval_method: str = "selenium",
+    summary_file_path: Optional[str] = None
 ) -> Dict[str, Any]:
     """Main logic to download PDF given an identifier. Returns a dictionary with summary info."""
     
@@ -535,13 +550,10 @@ def doi_to_pdf_downloader(
                 summary_data["status"] = "SUCCESS"
                 actual_download_source_url = scihub_pdf_url_retrieved
             else:
-                # This state might be covered if retrieve_scihub_pdf_link_selenium raises NotFoundError when URL not found
                 _log("ERROR", "Sci-Hub retrieval function did not return a PDF URL.")
-                if summary_data["status"] != "FAILURE_SCIHUB_NOT_FOUND": # Check if already set by specific not found error
+                if summary_data["status"] != "FAILURE_SCIHUB_NOT_FOUND":
                     summary_data["status"] = "FAILURE_SCIHUB_NO_URL"
-
         except NotFoundError as e:
-            # Check if it's the specific "Sci-Hub does not have the document" error
             if "Sci-Hub does not have the document" in str(e):
                 summary_data["status"] = "FAILURE_SCIHUB_NOT_FOUND"
             else:
@@ -577,23 +589,29 @@ def doi_to_pdf_downloader(
         try:
             with open(output_filepath, "wb") as f:
                 f.write(pdf_content)
-            _log("SUCCESS", f"PDF successfully saved to: {output_filepath}") # This might override status if it was already success
-            summary_data["status"] = "SUCCESS" # Ensure status is SUCCESS if save completes
-            summary_data["message"] = f"PDF successfully saved to: {output_filepath}" # More specific success message
+            _log("SUCCESS", f"PDF successfully saved to: {output_filepath}")
+            summary_data["status"] = "SUCCESS"
+            summary_data["message"] = f"PDF successfully saved to: {output_filepath}"
 
             if auto_open_pdf:
                 open_file_externally(output_filepath)
         except IOError as e:
             _log("ERROR", f"Error saving PDF to {output_filepath}: {e}")
             summary_data["status"] = "FAILURE_SAVE_PDF"
-            summary_data["local_filepath"] = None # Reset on save failure
+            summary_data["local_filepath"] = None
             if not is_batch_mode: sys.exit(1)
     else:
         if summary_data["status"] not in ["SUCCESS", "FAILURE_OPENALEX_METADATA", "FAILURE_INPUT_ERROR", "FAILURE_SCIHUB_NOT_FOUND", "FAILURE_NO_DOI_FOR_SCIHUB"]:
-            # If no specific failure point was recorded for not getting content, mark it generally.
             summary_data["status"] = "FAILURE_NO_PDF_CONTENT"
         _log("FAILURE", f"Ultimately failed to download PDF for identifier: {input_identifier_str}.")
         if not is_batch_mode: sys.exit(1)
+
+    # Update simplified summary file incrementally
+    if summary_file_path:
+        final_status_str = "SUCCESS" if summary_data.get("status") == "SUCCESS" else "FAILURE"
+        # Use the potentially multi-part message from summary_data for the reason
+        reason_message = summary_data.get("message") if final_status_str == "FAILURE" else None
+        update_simplified_summary(summary_file_path, input_identifier_str, final_status_str, reason_message)
 
     return summary_data
 
@@ -631,7 +649,7 @@ def main():
         help="Automatically open each PDF file after downloading using the system's default viewer."
     )
     parser.add_argument(
-        "--delay", type=int, default=2, help="Delay in seconds between downloads in batch mode. Default: 2 seconds."
+        "--delay", type=int, default=0, help="Delay in seconds between downloads in batch mode. Default: 2 seconds."
     )
     
     # Add argument for Sci-Hub method
@@ -668,12 +686,18 @@ def main():
     master_log_file_path = os.path.join(args.output, log_filename)
     print(f"INFO: Operation log will be saved to: {master_log_file_path}")
 
-    # Prepare summary file path
+    # Prepare summary file path and write header
     summary_filename = f"download_summary_{timestamp_str}.txt"
     summary_file_path = os.path.join(args.output, summary_filename)
-    print(f"INFO: Download summary report will be saved to: {summary_file_path}")
+    try:
+        with open(summary_file_path, 'w', encoding='utf-8') as f_summary: # 'w' to create/overwrite
+            f_summary.write(f"--- Download Summary ({timestamp_str}) ---\n\n")
+        print(f"INFO: Initialized summary report at {summary_file_path}")
+    except IOError as e:
+        print(f"ERROR: Failed to initialize summary report {summary_file_path}: {e}. Summary will not be written.")
+        summary_file_path = None # Disable summary writing if header fails
     
-    processing_summaries: list[Dict[str, Any]] = []
+    processing_summaries: list[Dict[str, Any]] = [] # Still used to collect data, though not for final summary write
 
     if args.input_file:
         if not os.path.exists(args.input_file):
@@ -692,9 +716,6 @@ def main():
         print(f"Found {total_items} identifiers to process.")
 
         for i, identifier_str in enumerate(identifiers_to_process):
-            # For batch mode, we assume each line is a DOI for now, as per PRD future extension. 
-            # If it could be name/url, logic in doi_to_pdf_downloader would need adjustment or type inference.
-            # Current script structure expects batch file to contain DOIs primarily.
             print(f"\nProcessing item {i+1}/{total_items}: {identifier_str}") 
             log_message(master_log_file_path, identifier_str, "INFO", f"Starting processing for item {i+1}/{total_items}")
             try:
@@ -706,7 +727,8 @@ def main():
                     auto_open_pdf=args.open,
                     is_batch_mode=True,
                     log_file_path=master_log_file_path,
-                    scihub_retrieval_method=args.scihub_method
+                    scihub_retrieval_method=args.scihub_method,
+                    summary_file_path=summary_file_path
                 )
                 processing_summaries.append(summary)
             except Exception as e:
@@ -717,7 +739,6 @@ def main():
             if i < total_items - 1 and args.delay > 0:
                 wait_msg = f"Waiting for {args.delay} seconds before next item..."
                 print(wait_msg)
-                # Not logging this wait to keep log focused on processing steps
                 time.sleep(args.delay)
         
         final_batch_msg = "Batch processing complete."
@@ -734,31 +755,21 @@ def main():
             auto_open_pdf=args.open,
             is_batch_mode=False,
             log_file_path=master_log_file_path,
-            scihub_retrieval_method=args.scihub_method
+            scihub_retrieval_method=args.scihub_method,
+            summary_file_path=summary_file_path
         )
         processing_summaries.append(summary)
         final_single_msg = "Single item processing complete."
         print(final_single_msg)
         log_message(master_log_file_path, (args.doi or args.name or args.url), "INFO", final_single_msg)
     
-    # Write summaries to file
-    try:
-        with open(summary_file_path, 'w', encoding='utf-8') as f_summary:
-            for summary_item in processing_summaries:
-                f_summary.write(f"Identifier: {summary_item.get('identifier_input', 'N/A')}\n")
-                f_summary.write(f"  Resolved DOI: {summary_item.get('resolved_doi', 'N/A')}\n")
-                f_summary.write(f"  Title: {summary_item.get('paper_title', 'N/A')}\n")
-                f_summary.write(f"  Status: {summary_item.get('status', 'UNKNOWN')}\n")
-                f_summary.write(f"  Message: {summary_item.get('message', 'N/A')}\n")
-                f_summary.write(f"  OpenAlex API URL: {summary_item.get('openalex_api_url_queried', 'N/A')}\n")
-                f_summary.write(f"  OpenAlex Direct PDF URL: {summary_item.get('direct_oa_pdf_url_tried', 'N/A')}\n")
-                f_summary.write(f"  Sci-Hub Page URL Tried: {summary_item.get('scihub_page_url_tried', 'N/A')}\n")
-                f_summary.write(f"  Final PDF Source: {summary_item.get('final_pdf_source_url', 'N/A')}\n")
-                f_summary.write(f"  Saved To: {summary_item.get('local_filepath', 'N/A')}\n")
-                f_summary.write("---\n")
-        print(f"INFO: Successfully wrote summary report to {summary_file_path}")
-    except IOError as e:
-        print(f"ERROR: Failed to write summary report to {summary_file_path}: {e}")
+    # The final summary writing loop is removed, as it is now incremental.
+    # A final message indicating completion and where logs/summary are saved.
+    print(f"\nINFO: All processing finished. Main log: {master_log_file_path}")
+    if summary_file_path:
+        print(f"INFO: Incremental summary report: {summary_file_path}")
+    else:
+        print("WARNING: Summary report writing was disabled due to an earlier error.")
 
 if __name__ == "__main__":
     main()

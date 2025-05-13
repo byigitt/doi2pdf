@@ -1,0 +1,98 @@
+[2025-05-13 19:10:42] Identifier: BATCH_MODE | Status: INFO | Message: Starting batch processing from file: .\test-dois.txt
+[2025-05-13 19:10:42] Identifier: BATCH_MODE | Status: INFO | Message: Found 28 identifiers to process.
+[2025-05-13 19:10:42] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: Starting processing for item 1/28
+[2025-05-13 19:10:42] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: Starting process for: 10.2514/6.2016-2392
+[2025-05-13 19:10:43] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: No direct PDF URL found via OpenAlex.
+[2025-05-13 19:10:43] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: Attempting Sci-Hub fallback for DOI: 10.2514/6.2016-2392 using selenium method.
+[2025-05-13 19:10:43] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: [Selenium] Attempting to retrieve PDF link from Sci-Hub page: https://sci-hub.mksa.top/10.2514/6.2016-2392
+[2025-05-13 19:10:58] Identifier: 10.2514/6.2016-2392 | Status: DEBUG | Message: [Selenium] 'Not found' message not detected via specific text check within 6s. Proceeding to PDF check.
+[2025-05-13 19:10:58] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: [Selenium] Looking for iframe with id='pdf' or embed with id='pdf'...
+[2025-05-13 19:10:58] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: [Selenium] Found PDF element (iframe/embed#pdf) with src: https://sci.bban.top/pdf/10.2514/6.2016-2392.pdf
+[2025-05-13 19:10:58] Identifier: 10.2514/6.2016-2392 | Status: SUCCESS | Message: [Selenium] Successfully retrieved PDF link: https://sci.bban.top/pdf/10.2514/6.2016-2392.pdf
+[2025-05-13 19:10:58] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: [Selenium] Extracted 9 cookie(s) from the session.
+[2025-05-13 19:10:58] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: [Selenium] Quitting WebDriver.
+[2025-05-13 19:11:00] Identifier: 10.2514/6.2016-2392 | Status: INFO | Message: Found Sci-Hub PDF URL: https://sci.bban.top/pdf/10.2514/6.2016-2392.pdf
+[2025-05-13 19:11:00] Identifier: 10.2514/6.2016-2392 | Status: SUCCESS | Message: Successfully downloaded PDF from Sci-Hub.
+[2025-05-13 19:11:00] Identifier: 10.2514/6.2016-2392 | Status: SUCCESS | Message: PDF successfully saved to: .\downloads\Applying_Secure_Software_Engineering_(SSE)_Practices_to_Critical_Space_System_Infrastructure_Development.pdf
+[2025-05-13 19:11:02] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: Starting processing for item 2/28
+[2025-05-13 19:11:02] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: Starting process for: 10.1145/3456887.3457455
+[2025-05-13 19:11:02] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: No direct PDF URL found via OpenAlex.
+[2025-05-13 19:11:02] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: Attempting Sci-Hub fallback for DOI: 10.1145/3456887.3457455 using selenium method.
+[2025-05-13 19:11:02] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: [Selenium] Attempting to retrieve PDF link from Sci-Hub page: https://sci-hub.mksa.top/10.1145/3456887.3457455
+[2025-05-13 19:11:18] Identifier: 10.1145/3456887.3457455 | Status: DEBUG | Message: [Selenium] 'Not found' message not detected via specific text check within 6s. Proceeding to PDF check.
+[2025-05-13 19:11:18] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: [Selenium] Looking for iframe with id='pdf' or embed with id='pdf'...
+[2025-05-13 19:11:18] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: [Selenium] Found PDF element (iframe/embed#pdf) with src: https://sci.bban.top/pdf/10.1145/3456887.3457455.pdf
+[2025-05-13 19:11:18] Identifier: 10.1145/3456887.3457455 | Status: SUCCESS | Message: [Selenium] Successfully retrieved PDF link: https://sci.bban.top/pdf/10.1145/3456887.3457455.pdf
+[2025-05-13 19:11:18] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: [Selenium] Extracted 9 cookie(s) from the session.
+[2025-05-13 19:11:18] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: [Selenium] Quitting WebDriver.
+[2025-05-13 19:11:20] Identifier: 10.1145/3456887.3457455 | Status: INFO | Message: Found Sci-Hub PDF URL: https://sci.bban.top/pdf/10.1145/3456887.3457455.pdf
+[2025-05-13 19:11:20] Identifier: 10.1145/3456887.3457455 | Status: SUCCESS | Message: Successfully downloaded PDF from Sci-Hub.
+[2025-05-13 19:11:20] Identifier: 10.1145/3456887.3457455 | Status: SUCCESS | Message: PDF successfully saved to: .\downloads\Establishment_on_Comprehensive_Quality_Evaluation_Index_System_of_Computer_Major_College_Students.pdf
+[2025-05-13 19:11:22] Identifier: 10.1016/j.jbi.2021.103917 | Status: INFO | Message: Starting processing for item 3/28
+[2025-05-13 19:11:22] Identifier: 10.1016/j.jbi.2021.103917 | Status: INFO | Message: Starting process for: 10.1016/j.jbi.2021.103917
+[2025-05-13 19:11:22] Identifier: 10.1016/j.jbi.2021.103917 | Status: INFO | Message: Attempting direct download from OpenAlex URL: https://doi.org/10.1016/j.jbi.2021.103917
+[2025-05-13 19:11:24] Identifier: 10.1016/j.jbi.2021.103917 | Status: WARNING | Message: Direct download from OpenAlex URL failed: URL https://doi.org/10.1016/j.jbi.2021.103917 did not return a PDF. Content-type: text/html;charset=utf-8. Try opening the URL in a browser.. Will try Sci-Hub if DOI is available.
+[2025-05-13 19:11:24] Identifier: 10.1016/j.jbi.2021.103917 | Status: INFO | Message: Attempting Sci-Hub fallback for DOI: 10.1016/j.jbi.2021.103917 using selenium method.
+[2025-05-13 19:11:24] Identifier: 10.1016/j.jbi.2021.103917 | Status: INFO | Message: [Selenium] Attempting to retrieve PDF link from Sci-Hub page: https://sci-hub.mksa.top/10.1016/j.jbi.2021.103917
+[2025-05-13 19:11:33] Identifier: 10.1016/j.jbi.2021.103917 | Status: WARNING | Message: [Selenium] Sci-Hub page indicates document not found for DOI: 10.1016/j.jbi.2021.103917 (via specific text check)
+[2025-05-13 19:11:33] Identifier: 10.1016/j.jbi.2021.103917 | Status: INFO | Message: [Selenium] Quitting WebDriver.
+[2025-05-13 19:11:34] Identifier: 10.1016/j.jbi.2021.103917 | Status: ERROR | Message: Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1016/j.jbi.2021.103917
+[2025-05-13 19:11:34] Identifier: 10.1016/j.jbi.2021.103917 | Status: FAILURE | Message: Ultimately failed to download PDF for identifier: 10.1016/j.jbi.2021.103917.
+[2025-05-13 19:11:36] Identifier: 10.26668/businessreview/2023.v8i4.1732 | Status: INFO | Message: Starting processing for item 4/28
+[2025-05-13 19:11:36] Identifier: 10.26668/businessreview/2023.v8i4.1732 | Status: INFO | Message: Starting process for: 10.26668/businessreview/2023.v8i4.1732
+[2025-05-13 19:11:37] Identifier: 10.26668/businessreview/2023.v8i4.1732 | Status: INFO | Message: Attempting direct download from OpenAlex URL: https://www.openaccessojs.com/JBReview/article/download/1732/616
+[2025-05-13 19:11:38] Identifier: 10.26668/businessreview/2023.v8i4.1732 | Status: SUCCESS | Message: Successfully downloaded PDF from OpenAlex source.
+[2025-05-13 19:11:38] Identifier: 10.26668/businessreview/2023.v8i4.1732 | Status: SUCCESS | Message: PDF successfully saved to: .\downloads\Unlocking_the_Potential_of_Blockchain_Through_Multi-Criteria_Decision_Making_in_Platform_Selection.pdf
+[2025-05-13 19:11:40] Identifier: 10.1007/s11219-021-09557-y | Status: INFO | Message: Starting processing for item 5/28
+[2025-05-13 19:11:40] Identifier: 10.1007/s11219-021-09557-y | Status: INFO | Message: Starting process for: 10.1007/s11219-021-09557-y
+[2025-05-13 19:11:41] Identifier: 10.1007/s11219-021-09557-y | Status: INFO | Message: Attempting direct download from OpenAlex URL: https://link.springer.com/content/pdf/10.1007/s11219-021-09557-y.pdf
+[2025-05-13 19:11:42] Identifier: 10.1007/s11219-021-09557-y | Status: SUCCESS | Message: Successfully downloaded PDF from OpenAlex source.
+[2025-05-13 19:11:42] Identifier: 10.1007/s11219-021-09557-y | Status: SUCCESS | Message: PDF successfully saved to: .\downloads\Construction_of_a_quality_model_for_machine_learning_systems.pdf
+[2025-05-13 19:11:44] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: Starting processing for item 6/28
+[2025-05-13 19:11:44] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: Starting process for: 10.1504/IJMLO.2015.069709
+[2025-05-13 19:11:45] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: No direct PDF URL found via OpenAlex.
+[2025-05-13 19:11:45] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: Attempting Sci-Hub fallback for DOI: 10.1504/ijmlo.2015.069709 using selenium method.
+[2025-05-13 19:11:45] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: [Selenium] Attempting to retrieve PDF link from Sci-Hub page: https://sci-hub.mksa.top/10.1504/ijmlo.2015.069709
+[2025-05-13 19:12:00] Identifier: 10.1504/IJMLO.2015.069709 | Status: DEBUG | Message: [Selenium] 'Not found' message not detected via specific text check within 6s. Proceeding to PDF check.
+[2025-05-13 19:12:00] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: [Selenium] Looking for iframe with id='pdf' or embed with id='pdf'...
+[2025-05-13 19:12:00] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: [Selenium] Found PDF element (iframe/embed#pdf) with src: https://sci.bban.top/pdf/10.1504/IJMLO.2015.069709.pdf
+[2025-05-13 19:12:00] Identifier: 10.1504/IJMLO.2015.069709 | Status: SUCCESS | Message: [Selenium] Successfully retrieved PDF link: https://sci.bban.top/pdf/10.1504/IJMLO.2015.069709.pdf
+[2025-05-13 19:12:00] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: [Selenium] Extracted 9 cookie(s) from the session.
+[2025-05-13 19:12:00] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: [Selenium] Quitting WebDriver.
+[2025-05-13 19:12:01] Identifier: 10.1504/IJMLO.2015.069709 | Status: INFO | Message: Found Sci-Hub PDF URL: https://sci.bban.top/pdf/10.1504/IJMLO.2015.069709.pdf
+[2025-05-13 19:12:01] Identifier: 10.1504/IJMLO.2015.069709 | Status: SUCCESS | Message: Successfully downloaded PDF from Sci-Hub.
+[2025-05-13 19:12:01] Identifier: 10.1504/IJMLO.2015.069709 | Status: SUCCESS | Message: PDF successfully saved to: .\downloads\An_empirical_study_on_cloud_computing_requirements_for_better_mobile_learning_services.pdf
+[2025-05-13 19:12:03] Identifier: 10.1007/978-3-030-00623-5_7 | Status: INFO | Message: Starting processing for item 7/28
+[2025-05-13 19:12:03] Identifier: 10.1007/978-3-030-00623-5_7 | Status: INFO | Message: Starting process for: 10.1007/978-3-030-00623-5_7
+[2025-05-13 19:12:04] Identifier: 10.1007/978-3-030-00623-5_7 | Status: INFO | Message: No direct PDF URL found via OpenAlex.
+[2025-05-13 19:12:04] Identifier: 10.1007/978-3-030-00623-5_7 | Status: INFO | Message: Attempting Sci-Hub fallback for DOI: 10.1007/978-3-030-00623-5_7 using selenium method.
+[2025-05-13 19:12:04] Identifier: 10.1007/978-3-030-00623-5_7 | Status: INFO | Message: [Selenium] Attempting to retrieve PDF link from Sci-Hub page: https://sci-hub.mksa.top/10.1007/978-3-030-00623-5_7
+[2025-05-13 19:12:12] Identifier: 10.1007/978-3-030-00623-5_7 | Status: WARNING | Message: [Selenium] Sci-Hub page indicates document not found for DOI: 10.1007/978-3-030-00623-5_7 (via specific text check)
+[2025-05-13 19:12:12] Identifier: 10.1007/978-3-030-00623-5_7 | Status: INFO | Message: [Selenium] Quitting WebDriver.
+[2025-05-13 19:12:13] Identifier: 10.1007/978-3-030-00623-5_7 | Status: ERROR | Message: Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1007/978-3-030-00623-5_7
+[2025-05-13 19:12:13] Identifier: 10.1007/978-3-030-00623-5_7 | Status: FAILURE | Message: Ultimately failed to download PDF for identifier: 10.1007/978-3-030-00623-5_7.
+[2025-05-13 19:12:15] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: Starting processing for item 8/28
+[2025-05-13 19:12:15] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: Starting process for: 10.1109/INFORINO.2018.8581741
+[2025-05-13 19:12:16] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: No direct PDF URL found via OpenAlex.
+[2025-05-13 19:12:16] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: Attempting Sci-Hub fallback for DOI: 10.1109/inforino.2018.8581741 using selenium method.
+[2025-05-13 19:12:16] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: [Selenium] Attempting to retrieve PDF link from Sci-Hub page: https://sci-hub.mksa.top/10.1109/inforino.2018.8581741
+[2025-05-13 19:12:32] Identifier: 10.1109/INFORINO.2018.8581741 | Status: DEBUG | Message: [Selenium] 'Not found' message not detected via specific text check within 6s. Proceeding to PDF check.
+[2025-05-13 19:12:32] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: [Selenium] Looking for iframe with id='pdf' or embed with id='pdf'...
+[2025-05-13 19:12:32] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: [Selenium] Found PDF element (iframe/embed#pdf) with src: https://sci.bban.top/pdf/10.1109/INFORINO.2018.8581741.pdf
+[2025-05-13 19:12:32] Identifier: 10.1109/INFORINO.2018.8581741 | Status: SUCCESS | Message: [Selenium] Successfully retrieved PDF link: https://sci.bban.top/pdf/10.1109/INFORINO.2018.8581741.pdf
+[2025-05-13 19:12:32] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: [Selenium] Extracted 9 cookie(s) from the session.
+[2025-05-13 19:12:32] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: [Selenium] Quitting WebDriver.
+[2025-05-13 19:12:33] Identifier: 10.1109/INFORINO.2018.8581741 | Status: INFO | Message: Found Sci-Hub PDF URL: https://sci.bban.top/pdf/10.1109/INFORINO.2018.8581741.pdf
+[2025-05-13 19:12:34] Identifier: 10.1109/INFORINO.2018.8581741 | Status: SUCCESS | Message: Successfully downloaded PDF from Sci-Hub.
+[2025-05-13 19:12:34] Identifier: 10.1109/INFORINO.2018.8581741 | Status: SUCCESS | Message: PDF successfully saved to: .\downloads\Software_Engineering_for_Industry_Specialists.pdf
+[2025-05-13 19:12:36] Identifier: 10.25046/aj050272 | Status: INFO | Message: Starting processing for item 9/28
+[2025-05-13 19:12:36] Identifier: 10.25046/aj050272 | Status: INFO | Message: Starting process for: 10.25046/aj050272
+[2025-05-13 19:12:36] Identifier: 10.25046/aj050272 | Status: INFO | Message: Attempting direct download from OpenAlex URL: https://astesj.com/?smd_process_download=1&download_id=13296
+[2025-05-13 19:12:40] Identifier: 10.25046/aj050272 | Status: SUCCESS | Message: Successfully downloaded PDF from OpenAlex source.
+[2025-05-13 19:12:40] Identifier: 10.25046/aj050272 | Status: SUCCESS | Message: PDF successfully saved to: .\downloads\An_ISO_25010_Based_Quality_Model_for_ERP_Systems.pdf
+[2025-05-13 19:12:42] Identifier: 10.1108/TQM-05-2015-0065 | Status: INFO | Message: Starting processing for item 10/28
+[2025-05-13 19:12:42] Identifier: 10.1108/TQM-05-2015-0065 | Status: INFO | Message: Starting process for: 10.1108/TQM-05-2015-0065
+[2025-05-13 19:12:42] Identifier: 10.1108/TQM-05-2015-0065 | Status: INFO | Message: No direct PDF URL found via OpenAlex.
+[2025-05-13 19:12:42] Identifier: 10.1108/TQM-05-2015-0065 | Status: INFO | Message: Attempting Sci-Hub fallback for DOI: 10.1108/tqm-05-2015-0065 using selenium method.
+[2025-05-13 19:12:42] Identifier: 10.1108/TQM-05-2015-0065 | Status: INFO | Message: [Selenium] Attempting to retrieve PDF link from Sci-Hub page: https://sci-hub.mksa.top/10.1108/tqm-05-2015-0065
+[2025-05-13 19:12:50] Identifier: 10.1108/TQM-05-2015-0065 | Status: INFO | Message: [Selenium] Quitting WebDriver.
