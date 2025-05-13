@@ -26,7 +26,7 @@ A Python application to download PDF versions of scientific articles using their
 
 ## Usage
 
-Replace `python pdf_downloader_script.py` with your actual script execution command (e.g., `python ./pdf_downloader_script.py` or just `pdf_downloader_script.py` if it's in your PATH and executable).
+Replace `python main.py` with your actual script execution command (e.g., `python ./main.py` or just `main.py` if it's in your PATH and executable).
 
 **Mandatory: You must provide one of the following identifiers:**
 - `--doi <DOI_STRING>`
@@ -44,22 +44,22 @@ Replace `python pdf_downloader_script.py` with your actual script execution comm
 
 1.  **Download by DOI (simplest case, default output directory):**
     ```bash
-    python pdf_downloader_script.py --doi "10.1234/example.doi"
+    python main.py --doi "10.1234/example.doi"
     ```
 
 2.  **Download by DOI, specify output directory, and automatically open:**
     ```bash
-    python pdf_downloader_script.py --doi "10.1234/example.doi" -o "./my_papers" --open
+    python main.py --doi "10.1234/example.doi" -o "./my_papers" --open
     ```
 
 3.  **Download by Paper Name:**
     ```bash
-    python pdf_downloader_script.py --name "The Theory Of Everything" -o "./physics_papers/"
+    python main.py --name "The Theory Of Everything" -o "./physics_papers/"
     ```
 
 4.  **Download by URL (e.g., an article page, DOI link, or arXiv link):**
     ```bash
-    python pdf_downloader_script.py --url "https://arxiv.org/abs/2303.08774" --output "./arxiv_downloads/"
+    python main.py --url "https://arxiv.org/abs/2303.08774" --output "./arxiv_downloads/"
     ```
 
 5.  **Batch download from a file of DOIs:**
@@ -71,16 +71,16 @@ Replace `python pdf_downloader_script.py` with your actual script execution comm
     ```
     Then run:
     ```bash
-    python pdf_downloader_script.py --input-file ./my_dois.txt -o "./batch_downloads/" --delay 5
+    python main.py --input-file ./my_dois.txt -o "./batch_downloads/" --delay 5
     ```
 
 6.  **Using a specific Sci-Hub retrieval method (Selenium is default):**
     ```bash
     # Explicitly use Selenium (default, more robust)
-    python pdf_downloader_script.py --doi "10.1109/ACCESS.2023.1234567" --scihub-method selenium
+    python main.py --doi "10.1109/ACCESS.2023.1234567" --scihub-method selenium
 
     # Use the less reliable requests-based method (not recommended for Sci-Hub)
-    python pdf_downloader_script.py --doi "10.1109/ACCESS.2023.1234567" --scihub-method requests
+    python main.py --doi "10.1109/ACCESS.2023.1234567" --scihub-method requests
     ```
 
 7.  **Setting Sci-Hub URL via Environment Variable (then running a command):**
@@ -88,21 +88,21 @@ Replace `python pdf_downloader_script.py` with your actual script execution comm
     *Powershell Example:*
     ```powershell
     $env:SCI_HUB_URL = "https://sci-hub.se" # Replace with a currently working Sci-Hub domain
-    python pdf_downloader_script.py --doi "10.1234/example.doi"
+    python main.py --doi "10.1234/example.doi"
     # To remove for the session (optional): Remove-Item Env:SCI_HUB_URL
     ```
 
     *Bash/Zsh Example:*
     ```bash
     export SCI_HUB_URL="https://sci-hub.se" # Replace with a currently working Sci-Hub domain
-    python pdf_downloader_script.py --doi "10.1234/example.doi"
+    python main.py --doi "10.1234/example.doi"
     # To remove for the session (optional): unset SCI_HUB_URL
     ```
 
 **Combining options:**
 Most options can be combined. For example, batch processing with auto-open, a specific output directory, and the Selenium method (which is default but can be explicit):
 ```bash
-python pdf_downloader_script.py --input-file ./my_dois.txt -o "./papers_collection" --open --delay 3 --scihub-method selenium
+python main.py --input-file ./my_dois.txt -o "./papers_collection" --open --delay 3 --scihub-method selenium
 ```
 
 ## Important Notes on Sci-Hub Access
