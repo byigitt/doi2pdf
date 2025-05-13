@@ -1,0 +1,308 @@
+Identifier: 10.2514/6.2016-2392
+  Resolved DOI: 10.2514/6.2016-2392
+  Title: Applying Secure Software Engineering (SSE) Practices to Critical Space System Infrastructure Development
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Applying_Secure_Software_Engineering_(SSE)_Practices_to_Critical_Space_System_Infrastructure_Development.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.2514/6.2016-2392
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.2514/6.2016-2392
+  Final PDF Source: https://sci.bban.top/pdf/10.2514/6.2016-2392.pdf
+  Saved To: .\downloads\Applying_Secure_Software_Engineering_(SSE)_Practices_to_Critical_Space_System_Infrastructure_Development.pdf
+---
+Identifier: 10.1145/3456887.3457455
+  Resolved DOI: 10.1145/3456887.3457455
+  Title: Establishment on Comprehensive Quality Evaluation Index System of Computer Major College Students
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Establishment_on_Comprehensive_Quality_Evaluation_Index_System_of_Computer_Major_College_Students.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1145/3456887.3457455
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1145/3456887.3457455
+  Final PDF Source: https://sci.bban.top/pdf/10.1145/3456887.3457455.pdf
+  Saved To: .\downloads\Establishment_on_Comprehensive_Quality_Evaluation_Index_System_of_Computer_Major_College_Students.pdf
+---
+Identifier: 10.1016/j.jbi.2021.103917
+  Resolved DOI: 10.1016/j.jbi.2021.103917
+  Title: A process model for quality in use evaluation of clinical decision support systems
+  Status: FAILURE
+  Message: Direct download from OpenAlex URL failed: URL https://doi.org/10.1016/j.jbi.2021.103917 did not return a PDF. Content-type: text/html;charset=utf-8. Try opening the URL in a browser.. Will try Sci-Hub if DOI is available. | [Selenium] Sci-Hub page indicates document not found for DOI: 10.1016/j.jbi.2021.103917 (via specific text check) | Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1016/j.jbi.2021.103917 | Ultimately failed to download PDF for identifier: 10.1016/j.jbi.2021.103917.
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1016/j.jbi.2021.103917
+  OpenAlex Direct PDF URL: https://doi.org/10.1016/j.jbi.2021.103917
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1016/j.jbi.2021.103917
+  Final PDF Source: None
+  Saved To: None
+---
+Identifier: 10.26668/businessreview/2023.v8i4.1732
+  Resolved DOI: 10.26668/businessreview/2023.v8i4.1732
+  Title: Unlocking the Potential of Blockchain Through Multi-Criteria Decision Making in Platform Selection
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Unlocking_the_Potential_of_Blockchain_Through_Multi-Criteria_Decision_Making_in_Platform_Selection.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.26668/businessreview/2023.v8i4.1732
+  OpenAlex Direct PDF URL: https://www.openaccessojs.com/JBReview/article/download/1732/616
+  Sci-Hub Page URL Tried: None
+  Final PDF Source: https://www.openaccessojs.com/JBReview/article/download/1732/616
+  Saved To: .\downloads\Unlocking_the_Potential_of_Blockchain_Through_Multi-Criteria_Decision_Making_in_Platform_Selection.pdf
+---
+Identifier: 10.1007/s11219-021-09557-y
+  Resolved DOI: 10.1007/s11219-021-09557-y
+  Title: Construction of a quality model for machine learning systems
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Construction_of_a_quality_model_for_machine_learning_systems.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1007/s11219-021-09557-y
+  OpenAlex Direct PDF URL: https://link.springer.com/content/pdf/10.1007/s11219-021-09557-y.pdf
+  Sci-Hub Page URL Tried: None
+  Final PDF Source: https://link.springer.com/content/pdf/10.1007/s11219-021-09557-y.pdf
+  Saved To: .\downloads\Construction_of_a_quality_model_for_machine_learning_systems.pdf
+---
+Identifier: 10.1504/IJMLO.2015.069709
+  Resolved DOI: 10.1504/ijmlo.2015.069709
+  Title: An empirical study on cloud computing requirements for better mobile learning services
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\An_empirical_study_on_cloud_computing_requirements_for_better_mobile_learning_services.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1504/IJMLO.2015.069709
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1504/ijmlo.2015.069709
+  Final PDF Source: https://sci.bban.top/pdf/10.1504/IJMLO.2015.069709.pdf
+  Saved To: .\downloads\An_empirical_study_on_cloud_computing_requirements_for_better_mobile_learning_services.pdf
+---
+Identifier: 10.1007/978-3-030-00623-5_7
+  Resolved DOI: 10.1007/978-3-030-00623-5_7
+  Title: Evolving PRO2PI Methodology Considering Recent Challenges and Changes in the SPI Context
+  Status: FAILURE
+  Message: [Selenium] Sci-Hub page indicates document not found for DOI: 10.1007/978-3-030-00623-5_7 (via specific text check) | Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1007/978-3-030-00623-5_7 | Ultimately failed to download PDF for identifier: 10.1007/978-3-030-00623-5_7.
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1007/978-3-030-00623-5_7
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1007/978-3-030-00623-5_7
+  Final PDF Source: None
+  Saved To: None
+---
+Identifier: 10.1109/INFORINO.2018.8581741
+  Resolved DOI: 10.1109/inforino.2018.8581741
+  Title: Software Engineering for Industry Specialists
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Software_Engineering_for_Industry_Specialists.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1109/INFORINO.2018.8581741
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1109/inforino.2018.8581741
+  Final PDF Source: https://sci.bban.top/pdf/10.1109/INFORINO.2018.8581741.pdf
+  Saved To: .\downloads\Software_Engineering_for_Industry_Specialists.pdf
+---
+Identifier: 10.25046/aj050272
+  Resolved DOI: 10.25046/aj050272
+  Title: An ISO 25010 Based Quality Model for ERP Systems
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\An_ISO_25010_Based_Quality_Model_for_ERP_Systems.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.25046/aj050272
+  OpenAlex Direct PDF URL: https://astesj.com/?smd_process_download=1&download_id=13296
+  Sci-Hub Page URL Tried: None
+  Final PDF Source: https://astesj.com/?smd_process_download=1&download_id=13296
+  Saved To: .\downloads\An_ISO_25010_Based_Quality_Model_for_ERP_Systems.pdf
+---
+Identifier: 10.1108/TQM-05-2015-0065
+  Resolved DOI: 10.1108/tqm-05-2015-0065
+  Title: An evaluation of the quality of management information systems used by SACCOs in Kenya
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\An_evaluation_of_the_quality_of_management_information_systems_used_by_SACCOs_in_Kenya.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1108/TQM-05-2015-0065
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1108/tqm-05-2015-0065
+  Final PDF Source: https://sci.bban.top/pdf/10.1108/TQM-05-2015-0065.pdf
+  Saved To: .\downloads\An_evaluation_of_the_quality_of_management_information_systems_used_by_SACCOs_in_Kenya.pdf
+---
+Identifier: 10.1145/3055305.3055312
+  Resolved DOI: 10.1145/3055305.3055312
+  Title: Surveying Security Practice Adherence in Software Development
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Surveying_Security_Practice_Adherence_in_Software_Development.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1145/3055305.3055312
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1145/3055305.3055312
+  Final PDF Source: https://sci.bban.top/pdf/10.1145/3055305.3055312.pdf
+  Saved To: .\downloads\Surveying_Security_Practice_Adherence_in_Software_Development.pdf
+---
+Identifier: 10.1145/3628034.3628054
+  Resolved DOI: 10.1145/3628034.3628054
+  Title: Identifying and Documenting Best Practices in Digital Transformation
+  Status: FAILURE
+  Message: [Selenium] Sci-Hub page indicates document not found for DOI: 10.1145/3628034.3628054 (via specific text check) | Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1145/3628034.3628054 | Ultimately failed to download PDF for identifier: 10.1145/3628034.3628054.
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1145/3628034.3628054
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1145/3628034.3628054
+  Final PDF Source: None
+  Saved To: None
+---
+Identifier: 10.1109/INDIN.2017.8104827
+  Resolved DOI: 10.1109/indin.2017.8104827
+  Title: Discussion: No S without Q ⇒ No E without Q?
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Discussion_No_S_without_Q_⇒_No_E_without_Q.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1109/INDIN.2017.8104827
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1109/indin.2017.8104827
+  Final PDF Source: https://sci.bban.top/pdf/10.1109/INDIN.2017.8104827.pdf
+  Saved To: .\downloads\Discussion_No_S_without_Q_⇒_No_E_without_Q.pdf
+---
+Identifier: 10.1007/978-3-319-48869-1_1
+  Resolved DOI: 10.1007/978-3-319-48869-1_1
+  Title: Stupid Tool Tricks for Smart Model Based Design
+  Status: FAILURE
+  Message: [Selenium] Sci-Hub page indicates document not found for DOI: 10.1007/978-3-319-48869-1_1 (via specific text check) | Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1007/978-3-319-48869-1_1 | Ultimately failed to download PDF for identifier: 10.1007/978-3-319-48869-1_1.
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1007/978-3-319-48869-1_1
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1007/978-3-319-48869-1_1
+  Final PDF Source: None
+  Saved To: None
+---
+Identifier: 10.1109/UBMK63289.2024.10773457
+  Resolved DOI: 10.1109/ubmk63289.2024.10773457
+  Title: Investigating the Adoption of International Software Quality Standards in Turkiye: A Comprehensive Analysis
+  Status: FAILURE
+  Message: [Selenium] Sci-Hub page indicates document not found for DOI: 10.1109/ubmk63289.2024.10773457 (via specific text check) | Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1109/ubmk63289.2024.10773457 | Ultimately failed to download PDF for identifier: 10.1109/UBMK63289.2024.10773457.
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1109/UBMK63289.2024.10773457
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1109/ubmk63289.2024.10773457
+  Final PDF Source: None
+  Saved To: None
+---
+Identifier: 10.1007/978-3-319-49094-6_21
+  Resolved DOI: 10.1007/978-3-319-49094-6_21
+  Title: On the Role of Software Quality Management in Software Process Improvement
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\On_the_Role_of_Software_Quality_Management_in_Software_Process_Improvement.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1007/978-3-319-49094-6_21
+  OpenAlex Direct PDF URL: https://findresearcher.sdu.dk/ws/files/123557957/2016_08_29_wkf2016_WEB.pdf
+  Sci-Hub Page URL Tried: None
+  Final PDF Source: https://findresearcher.sdu.dk/ws/files/123557957/2016_08_29_wkf2016_WEB.pdf
+  Saved To: .\downloads\On_the_Role_of_Software_Quality_Management_in_Software_Process_Improvement.pdf
+---
+Identifier: 10.1007/s11219-015-9277-3
+  Resolved DOI: 10.1007/s11219-015-9277-3
+  Title: Software SMEs’ unofficial readiness for CMMI®-based software process improvement
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Software_SMEs’_unofficial_readiness_for_CMMI®-based_software_process_improvement.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1007/s11219-015-9277-3
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1007/s11219-015-9277-3
+  Final PDF Source: https://sci.bban.top/pdf/10.1007/s11219-015-9277-3.pdf
+  Saved To: .\downloads\Software_SMEs’_unofficial_readiness_for_CMMI®-based_software_process_improvement.pdf
+---
+Identifier: 10.1504/IJESMS.2014.058423
+  Resolved DOI: 10.1504/ijesms.2014.058423
+  Title: Essential contents for software development process and software quality education
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Essential_contents_for_software_development_process_and_software_quality_education.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1504/IJESMS.2014.058423
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1504/ijesms.2014.058423
+  Final PDF Source: https://sci.bban.top/pdf/10.1504/ijesms.2014.058423.pdf
+  Saved To: .\downloads\Essential_contents_for_software_development_process_and_software_quality_education.pdf
+---
+Identifier: 10.1109/ICSE-Companion52605.2021.00126
+  Resolved DOI: 10.1109/icse-companion52605.2021.00126
+  Title: Learning to Boost the Efficiency of Modern Code Review
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Learning_to_Boost_the_Efficiency_of_Modern_Code_Review.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1109/ICSE-Companion52605.2021.00126
+  OpenAlex Direct PDF URL: https://arxiv.org/pdf/2104.08310
+  Sci-Hub Page URL Tried: None
+  Final PDF Source: https://arxiv.org/pdf/2104.08310
+  Saved To: .\downloads\Learning_to_Boost_the_Efficiency_of_Modern_Code_Review.pdf
+---
+Identifier: 10.1109/MCSE.2015.136
+  Resolved DOI: 10.1109/mcse.2015.136
+  Title: HPCMP CREATE-AV Quality Assurance: Lessons Learned by Validating and Supporting Computation-Based Engineering Software
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\HPCMP_CREATE-AV_Quality_Assurance_Lessons_Learned_by_Validating_and_Supporting_Computation-Based_Engineering_Software.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1109/MCSE.2015.136
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1109/mcse.2015.136
+  Final PDF Source: https://sci.bban.top/pdf/10.1109/MCSE.2015.136.pdf
+  Saved To: .\downloads\HPCMP_CREATE-AV_Quality_Assurance_Lessons_Learned_by_Validating_and_Supporting_Computation-Based_Engineering_Software.pdf
+---
+Identifier: 10.1109/TSE.2021.3087792
+  Resolved DOI: 10.1109/tse.2021.3087792
+  Title: A Study About the Knowledge and Use of Requirements Engineering Standards in Industry
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\A_Study_About_the_Knowledge_and_Use_of_Requirements_Engineering_Standards_in_Industry.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1109/TSE.2021.3087792
+  OpenAlex Direct PDF URL: http://arxiv.org/pdf/2105.13961
+  Sci-Hub Page URL Tried: None
+  Final PDF Source: http://arxiv.org/pdf/2105.13961
+  Saved To: .\downloads\A_Study_About_the_Knowledge_and_Use_of_Requirements_Engineering_Standards_in_Industry.pdf
+---
+Identifier: 10.1145/3185089.3185117
+  Resolved DOI: 10.1145/3185089.3185117
+  Title: The Role of Human in Software Configuration Management
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\The_Role_of_Human_in_Software_Configuration_Management.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1145/3185089.3185117
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1145/3185089.3185117
+  Final PDF Source: https://sci.bban.top/pdf/10.1145/3185089.3185117.pdf
+  Saved To: .\downloads\The_Role_of_Human_in_Software_Configuration_Management.pdf
+---
+Identifier: 10.1007/978-981-97-5081-8_21
+  Resolved DOI: 10.1007/978-981-97-5081-8_21
+  Title: An Assessment of Requirement Engineering Practices in the IT Companies of South Gujarat Region of India
+  Status: FAILURE
+  Message: [Selenium] Sci-Hub page indicates document not found for DOI: 10.1007/978-981-97-5081-8_21 (via specific text check) | Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1007/978-981-97-5081-8_21 | Ultimately failed to download PDF for identifier: 10.1007/978-981-97-5081-8_21.
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1007/978-981-97-5081-8_21
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1007/978-981-97-5081-8_21
+  Final PDF Source: None
+  Saved To: None
+---
+Identifier: 10.2514/1.I010600
+  Resolved DOI: 10.2514/1.i010600
+  Title: Cooperative Robot Localization Using Event-Triggered Estimation
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Cooperative_Robot_Localization_Using_Event-Triggered_Estimation.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.2514/1.I010600
+  OpenAlex Direct PDF URL: https://arxiv.org/pdf/1802.07346
+  Sci-Hub Page URL Tried: None
+  Final PDF Source: https://arxiv.org/pdf/1802.07346
+  Saved To: .\downloads\Cooperative_Robot_Localization_Using_Event-Triggered_Estimation.pdf
+---
+Identifier: 10.1109/SEAA56994.2022.00031
+  Resolved DOI: 10.1109/seaa56994.2022.00031
+  Title: Towards Secure Agile Software Development Process: A Practice-Based Model
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Towards_Secure_Agile_Software_Development_Process_A_Practice-Based_Model.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1109/SEAA56994.2022.00031
+  OpenAlex Direct PDF URL: https://salford-repository.worktribe.com/preview/3285806/1-s2.0-S0961953423002180-main.pdf
+  Sci-Hub Page URL Tried: None
+  Final PDF Source: https://salford-repository.worktribe.com/preview/3285806/1-s2.0-S0961953423002180-main.pdf
+  Saved To: .\downloads\Towards_Secure_Agile_Software_Development_Process_A_Practice-Based_Model.pdf
+---
+Identifier: 10.1007/s10209-023-00980-5
+  Resolved DOI: 10.1007/s10209-023-00980-5
+  Title: Understanding mindsets, skills, current practices, and barriers of adoption of digital accessibility in Kuwait’s software development landscape
+  Status: FAILURE
+  Message: Direct download from OpenAlex URL failed: URL https://link.springer.com/content/pdf/10.1007/s10209-023-00980-5.pdf did not return a PDF. Content-type: text/html; charset=utf-8. Try opening the URL in a browser.. Will try Sci-Hub if DOI is available. | [Selenium] Sci-Hub page indicates document not found for DOI: 10.1007/s10209-023-00980-5 (via specific text check) | Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1007/s10209-023-00980-5 | Ultimately failed to download PDF for identifier: 10.1007/s10209-023-00980-5.
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1007/s10209-023-00980-5
+  OpenAlex Direct PDF URL: https://link.springer.com/content/pdf/10.1007/s10209-023-00980-5.pdf
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1007/s10209-023-00980-5
+  Final PDF Source: None
+  Saved To: None
+---
+Identifier: 10.1145/3641554.3701841
+  Resolved DOI: 10.1145/3641554.3701841
+  Title: Enhancing Accessibility in Software Engineering Projects with Large Language Models (LLMs)
+  Status: FAILURE
+  Message: Direct download from OpenAlex URL failed: Failed to download PDF from https://doi.org/10.1145/3641554.3701841: 403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/3641554.3701841. Will try Sci-Hub if DOI is available. | [Selenium] Sci-Hub page indicates document not found for DOI: 10.1145/3641554.3701841 (via specific text check) | Sci-Hub download failed: Sci-Hub does not have the document for DOI: 10.1145/3641554.3701841 | Ultimately failed to download PDF for identifier: 10.1145/3641554.3701841.
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1145/3641554.3701841
+  OpenAlex Direct PDF URL: https://doi.org/10.1145/3641554.3701841
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1145/3641554.3701841
+  Final PDF Source: None
+  Saved To: None
+---
+Identifier: 10.1145/3368691.3368715
+  Resolved DOI: 10.1145/3368691.3368715
+  Title: Towards the adoption of international standards in enterprise architecture measurement
+  Status: SUCCESS
+  Message: PDF successfully saved to: .\downloads\Towards_the_adoption_of_international_standards_in_enterprise_architecture_measurement.pdf
+  OpenAlex API URL: https://api.openalex.org/works/https://doi.org/10.1145/3368691.3368715
+  OpenAlex Direct PDF URL: None
+  Sci-Hub Page URL Tried: https://sci-hub.mksa.top/10.1145/3368691.3368715
+  Final PDF Source: https://sci.bban.top/pdf/10.1145/3368691.3368715.pdf
+  Saved To: .\downloads\Towards_the_adoption_of_international_standards_in_enterprise_architecture_measurement.pdf
+---
