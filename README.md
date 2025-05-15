@@ -17,7 +17,7 @@ A Python application to download PDF versions of scientific articles using their
 ## Installation
 
 1.  Clone the repository (or download the script).
-2.  Navigate to the `doi_downloader_project` directory.
+2.  Navigate to the `doi2pdf` directory.
 3.  Install dependencies:
     ```bash
     pip install -r requirements.txt
@@ -102,7 +102,7 @@ Replace `python main.py` with your actual script execution command (e.g., `pytho
 **Combining options:**
 Most options can be combined. For example, batch processing with auto-open, a specific output directory, and the Selenium method (which is default but can be explicit):
 ```bash
-python main.py --input-file ./my_dois.txt -o "./papers_collection" --open --delay 3 --scihub-method selenium
+python main.py --input-file ./my_dois.txt -o "./papers_collection" --open --delay 2 --scihub-method selenium
 ```
 
 ## Important Notes on Sci-Hub Access
